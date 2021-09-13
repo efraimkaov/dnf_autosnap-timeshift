@@ -17,5 +17,5 @@ ek@efraimkaov:~$ ./dat.sh
 * Run `dnf-rm <package>` instead of `sudo dnf remove <package>`
 * Run `dnf-up <package>` instead of `sudo dnf upgrade <package>`
 
-Soon I will add example how to install Fedora with properly btrfs subvolumes compatible with timeshift.
+Soon I will add an example how to install Fedora with properly btrfs subvolumes compatible with timeshift.
 
