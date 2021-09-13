@@ -12,10 +12,10 @@ ek@efraimkaov:~$ ./dat.sh
 ```
 ## How to use
 
-Run `dnf-in <package>` instead of `sudo dnf install <package>`
-Run `dnf-rei <package>` instead of `sudo dnf reinstall <package>`
-Run `dnf-rm <package>` instead of `sudo dnf remove <package>`
-Run `dnf-up <package>` instead of `sudo dnf upgrade <package>`
+* Run `dnf-in <package>` instead of `sudo dnf install <package>`
+* Run `dnf-rei <package>` instead of `sudo dnf reinstall <package>`
+* Run `dnf-rm <package>` instead of `sudo dnf remove <package>`
+* Run `dnf-up <package>` instead of `sudo dnf upgrade <package>`
 
 Soon I will add example how to install Fedora with properly btrfs subvolumes compatible with timeshift.
 
