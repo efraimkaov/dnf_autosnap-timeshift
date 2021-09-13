@@ -2,7 +2,7 @@
 
 This is a simple hack which creates timeshift snapshots before any dnf-in/dnf-rei/dnf-rm/dnf-up command.
 
-The advantage of this hack is that you can always run regular `dnf` without snapshots.
+The advantage of this hack is that you can always run regular `dnf` command without snapshots.
 
 You need to have timeshift installed and configured before running this script.
 
