@@ -1,6 +1,6 @@
 # dnf_autosnap-timeshift
 
-This is a simple hack which creates timeshift snapshots before any dnf-in/dnf-rei/dnf-rm/dnf-up command.
+This is a simple hack which creates timeshift snapshots before installing/reinstalling/removing/upgrading packages in distributions like Fedora with dnf package manager.
 
 The advantage of this hack is that you can always run regular `dnf` command without snapshots.
 
@@ -17,5 +17,5 @@ ek@efraimkaov:~$ ./dat.sh
 * Run `dnf-rm <package>` instead of `sudo dnf remove <package>`
 * Run `dnf-up <package>` instead of `sudo dnf upgrade <package>`
 
-Soon I will add an example how to install Fedora with properly btrfs subvolumes compatible with timeshift.
+Soon I will show you how to install Fedora with properly btrfs subvolumes compatible with timeshift.
 
