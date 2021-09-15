@@ -6,7 +6,7 @@ The advantage of this is that you can always run regular `dnf` commands without 
 
 You need to install `timeshift` and configure it either using btrfs or rsync before running this script. I recommend using btrfs as a filesystem for this.
 
-```sh
+```
 $ chmod +x dat.sh
 $ ./dat.sh
 ```
@@ -19,7 +19,7 @@ $ ./dat.sh
 
 ## Simple example with output
 
-```sh
+```
 [ek@efraimkaov ~]$ dnf-in mc -y
 [sudo] password for ek:
 Using system disk as snapshot device for creating snapshots in BTRFS mode
